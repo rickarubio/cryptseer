@@ -24,13 +24,14 @@ gem 'cryptsy-api'
 # Gem needed for Testing
 gem 'simplecov', :require => false
 
+gem 'rspec'
+
 group :test do
   gem 'shoulda-matchers'
   gem 'rack-test'
 end
 
 group :test, :development do
-  gem 'rspec'
   gem 'factory_girl'
   gem 'faker'
 end
